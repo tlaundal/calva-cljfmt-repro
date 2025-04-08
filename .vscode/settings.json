@@ -1,0 +1,4 @@
+{
+    "calva.fmt.configPath": ".cljfmt.edn",
+    "calva.fmt.newIndentEngine": false
+}

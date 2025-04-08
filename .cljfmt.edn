@@ -1,0 +1,4 @@
+{:extra-indents {repro.macro/example-macro [[:block 2]]}
+ 
+ :test-code [(repro.macro/example-macro :first-arg second-arg
+               (some long body))]}
