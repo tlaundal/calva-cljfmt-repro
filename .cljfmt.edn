@@ -1,4 +1,5 @@
 {:extra-indents {repro.macro/example-macro [[:block 2]]}
- 
- :test-code [(repro.macro/example-macro :first-arg second-arg
+
+ :test-code [;; cljfmt and Calva agree on how to format this:
+             (repro.macro/example-macro :first-arg second-arg
                (some long body))]}
